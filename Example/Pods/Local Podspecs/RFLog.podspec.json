@@ -1,0 +1,23 @@
+{
+  "name": "RFLog",
+  "version": "0.0.1",
+  "summary": "A short description of RFLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiepengxiang93@sina.com/RFLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiepengxiang93@sina.com": "xiepengxiang@ofbank.com"
+  },
+  "source": {
+    "git": "https://github.com/xiepengxiang93@sina.com/RFLog.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RFLog/Classes/**/*",
+  "prefix_header_file": "RFLog/Support/RFLog-pch.h"
+}

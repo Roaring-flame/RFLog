@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191466CA0AF530B939C4F3F08C4470FD /* Pods-RFLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A70E8E466B6F67522C73E72E1BB9272 /* Pods-RFLog_Example-dummy.m */; };
+		5E280336D67B8CAA39E4C7E714705057 /* RFAssistiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = C9246F92E6578B31976A2F9DF127E86C /* RFAssistiveTouch.m */; };
+		6D606F3109EF0A8EF4766711849ACE81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7BBA5008827E76A8DD81831F3DCD01DD /* RFLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0A07F852CD45C4E3236ACEEC4CDBB7 /* RFLog.m */; };
+		7DAE569C8DEE3BCE8CF4021BC56DADBC /* RFAssistiveTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F89B12EECC206364BBBEDBC891B1546 /* RFAssistiveTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E6DD99B9EFD557BA35474532949D82 /* RFLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EC12321849EC92C8829894EBB4FDE9 /* RFLog-dummy.m */; };
+		AF1359473DE9E63814F1682CD475E01D /* RFTouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C97FE1C9067A2E88327FA26C4B2061E /* RFTouchController.m */; };
+		B8053A231307327AB9B753B2C0479E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BDDDC4982AACF9E3E06918A0CA055EC3 /* RFTouchController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6534856E0BB66E1EA46700D120F97629 /* RFTouchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C20DF48A3814785BC381587C7A109792 /* Pods-RFLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4317E1DE750138E3989C6D7284FBDD89 /* Pods-RFLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FD935D4493DF3CF6D4857D3B3E6A98 /* RFLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E956192DE5801A1FD3AE5BD8E02CCC28 /* RFLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2DD20BF5F6D19B7AAFC7A7A8897725A /* Pods-RFLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFC32D8A591F8B1941F7E3DCDCAA657 /* Pods-RFLog_Tests-dummy.m */; };
+		DC9DFCA8C4487D6DF412438721D2834F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F433229957C0AE737F9F820E4A7E1B88 /* Pods-RFLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2FB6749DA531086DEFF1C0A0361285 /* Pods-RFLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDAB161B21651E8BB591B3F2D712F3A4 /* RFLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ADE58871FACE629CC14F3495AC1EDC /* RFLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C96B6BD5B43A67DF3CAB2334025C45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B84BB50AD67ED8D1EBD9700D97326FF;
+			remoteInfo = RFLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C97FE1C9067A2E88327FA26C4B2061E /* RFTouchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFTouchController.m; path = RFLog/Classes/RFTouchController.m; sourceTree = "<group>"; };
+		14EC12321849EC92C8829894EBB4FDE9 /* RFLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFLog-dummy.m"; sourceTree = "<group>"; };
+		1874CBFE82F3D560EBCE3458FA58ED1D /* RFLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFLog-prefix.pch"; sourceTree = "<group>"; };
+		1E2673FA2501912F9E0225BB4C6A23ED /* Pods_RFLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RFLog_Tests.framework; path = "Pods-RFLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2863B195CCFAE42177C38B0D143C19B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0D62CCAAC751F4EF98423129DC7106 /* Pods-RFLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2D1A37F671C9676FF32912529CDB3636 /* Pods-RFLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3A68E4BA0C4478FEC12C120321A7C237 /* Pods-RFLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFLog_Tests-resources.sh"; sourceTree = "<group>"; };
+		4317E1DE750138E3989C6D7284FBDD89 /* Pods-RFLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RFLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4FE1FEFF51D9721E4CE5AB391C157A0A /* Pods-RFLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RFLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C061291292494A698DB13DB0DEDBE53 /* Pods-RFLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFLog_Example-resources.sh"; sourceTree = "<group>"; };
+		5F89B12EECC206364BBBEDBC891B1546 /* RFAssistiveTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFAssistiveTouch.h; path = RFLog/Classes/RFAssistiveTouch.h; sourceTree = "<group>"; };
+		6534856E0BB66E1EA46700D120F97629 /* RFTouchController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFTouchController.h; path = RFLog/Classes/RFTouchController.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67825BC7A63C98A2CC2A3B290591F628 /* Pods-RFLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6A70E8E466B6F67522C73E72E1BB9272 /* Pods-RFLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RFLog_Example-dummy.m"; sourceTree = "<group>"; };
+		6F72C5862A488747AA8941FD0E2A07F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74ADE58871FACE629CC14F3495AC1EDC /* RFLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFLog.h; path = RFLog/Classes/RFLog.h; sourceTree = "<group>"; };
+		76733406310B53C3D16B7FFC496B6FE2 /* Pods-RFLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7A0B910FB5D4863E475013908E6BCA36 /* RFLog-pch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RFLog-pch.h"; path = "RFLog/Support/RFLog-pch.h"; sourceTree = "<group>"; };
+		7B21042851C34A98BA02C03D7B6BC769 /* RFLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RFLog.modulemap; sourceTree = "<group>"; };
+		7BFC32D8A591F8B1941F7E3DCDCAA657 /* Pods-RFLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RFLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		7C2FB6749DA531086DEFF1C0A0361285 /* Pods-RFLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RFLog_Example-umbrella.h"; sourceTree = "<group>"; };
+		7CD2A32AA50ED4D0EFD031FF8FF857BA /* Pods_RFLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RFLog_Example.framework; path = "Pods-RFLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D55E573C0804C2A33825C9AF9E004C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885BC258449BA6643F825E4E803D4A1A /* Pods-RFLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RFLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88EFB529C6F762CBA6DE24868AA9B8C6 /* Pods-RFLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		90A9E15923E2CC30E741637EF00A312B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E1BB95AEE132994D3765B9BA456B1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97C456DF3A8F15BA4268F794B5EBDE43 /* Pods-RFLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RFLog_Example.modulemap"; sourceTree = "<group>"; };
+		9EBB412EFAE66B2CD38E76097ABC0532 /* RFLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RFLog.framework; path = RFLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67D7FCEA21304E8F5D8E5E94DBE1770 /* Pods-RFLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1DBA66117908E342A1743758550143F /* RFLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RFLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C24F7B937694499BC676EC2156FD921E /* Pods-RFLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RFLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7614D253D1222C5D9D684DB6C0301E6 /* Pods-RFLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RFLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9246F92E6578B31976A2F9DF127E86C /* RFAssistiveTouch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFAssistiveTouch.m; path = RFLog/Classes/RFAssistiveTouch.m; sourceTree = "<group>"; };
+		CA0A07F852CD45C4E3236ACEEC4CDBB7 /* RFLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFLog.m; path = RFLog/Classes/RFLog.m; sourceTree = "<group>"; };
+		CDC0E4802023A56B28D0748AC0AB6815 /* Pods-RFLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RFLog_Tests.modulemap"; sourceTree = "<group>"; };
+		E956192DE5801A1FD3AE5BD8E02CCC28 /* RFLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFLog-umbrella.h"; sourceTree = "<group>"; };
+		F464AE5377767B4AB9E0B441CF8EDC10 /* RFLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFLog.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0491CB3D948901BFB14AAEFE53A8E3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8053A231307327AB9B753B2C0479E40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55925B88015CA9A23B6761A4FF29A775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D606F3109EF0A8EF4766711849ACE81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BB77787006FB9634056BEEDE47584E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9DFCA8C4487D6DF412438721D2834F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1338414BE7BC1BFC376D0304675671 /* Pods-RFLog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6F72C5862A488747AA8941FD0E2A07F0 /* Info.plist */,
+				97C456DF3A8F15BA4268F794B5EBDE43 /* Pods-RFLog_Example.modulemap */,
+				885BC258449BA6643F825E4E803D4A1A /* Pods-RFLog_Example-acknowledgements.markdown */,
+				C7614D253D1222C5D9D684DB6C0301E6 /* Pods-RFLog_Example-acknowledgements.plist */,
+				6A70E8E466B6F67522C73E72E1BB9272 /* Pods-RFLog_Example-dummy.m */,
+				76733406310B53C3D16B7FFC496B6FE2 /* Pods-RFLog_Example-frameworks.sh */,
+				5C061291292494A698DB13DB0DEDBE53 /* Pods-RFLog_Example-resources.sh */,
+				7C2FB6749DA531086DEFF1C0A0361285 /* Pods-RFLog_Example-umbrella.h */,
+				67825BC7A63C98A2CC2A3B290591F628 /* Pods-RFLog_Example.debug.xcconfig */,
+				2C0D62CCAAC751F4EF98423129DC7106 /* Pods-RFLog_Example.release.xcconfig */,
+			);
+			name = "Pods-RFLog_Example";
+			path = "Target Support Files/Pods-RFLog_Example";
+			sourceTree = "<group>";
+		};
+		3D9844F65896BC80BB3407B3D6CFDFE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D55E573C0804C2A33825C9AF9E004C /* Info.plist */,
+				7B21042851C34A98BA02C03D7B6BC769 /* RFLog.modulemap */,
+				F464AE5377767B4AB9E0B441CF8EDC10 /* RFLog.xcconfig */,
+				14EC12321849EC92C8829894EBB4FDE9 /* RFLog-dummy.m */,
+				1874CBFE82F3D560EBCE3458FA58ED1D /* RFLog-prefix.pch */,
+				E956192DE5801A1FD3AE5BD8E02CCC28 /* RFLog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RFLog";
+			sourceTree = "<group>";
+		};
+		419B2C83C15B6D6A0674F7B756B006C1 /* RFLog */ = {
+			isa = PBXGroup;
+			children = (
+				5F89B12EECC206364BBBEDBC891B1546 /* RFAssistiveTouch.h */,
+				C9246F92E6578B31976A2F9DF127E86C /* RFAssistiveTouch.m */,
+				74ADE58871FACE629CC14F3495AC1EDC /* RFLog.h */,
+				CA0A07F852CD45C4E3236ACEEC4CDBB7 /* RFLog.m */,
+				6534856E0BB66E1EA46700D120F97629 /* RFTouchController.h */,
+				0C97FE1C9067A2E88327FA26C4B2061E /* RFTouchController.m */,
+				CB51345F3126ACB47F865A87A0129EEC /* Pod */,
+				3D9844F65896BC80BB3407B3D6CFDFE8 /* Support Files */,
+			);
+			name = RFLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		653287CB991446E1715635849B7F2A8C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E1338414BE7BC1BFC376D0304675671 /* Pods-RFLog_Example */,
+				F4580E69CC28DE123068D353D1415648 /* Pods-RFLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7DEAEE4248E7DF1FA7960C1177A7299D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9FEB75C93F709F6DE7F21F5739451E72 /* Products */,
+				653287CB991446E1715635849B7F2A8C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DEAEE4248E7DF1FA7960C1177A7299D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				419B2C83C15B6D6A0674F7B756B006C1 /* RFLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9FEB75C93F709F6DE7F21F5739451E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2A32AA50ED4D0EFD031FF8FF857BA /* Pods_RFLog_Example.framework */,
+				1E2673FA2501912F9E0225BB4C6A23ED /* Pods_RFLog_Tests.framework */,
+				9EBB412EFAE66B2CD38E76097ABC0532 /* RFLog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB51345F3126ACB47F865A87A0129EEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94E1BB95AEE132994D3765B9BA456B1C /* LICENSE */,
+				90A9E15923E2CC30E741637EF00A312B /* README.md */,
+				C1DBA66117908E342A1743758550143F /* RFLog.podspec */,
+				7A0B910FB5D4863E475013908E6BCA36 /* RFLog-pch.h */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4580E69CC28DE123068D353D1415648 /* Pods-RFLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2863B195CCFAE42177C38B0D143C19B0 /* Info.plist */,
+				CDC0E4802023A56B28D0748AC0AB6815 /* Pods-RFLog_Tests.modulemap */,
+				4FE1FEFF51D9721E4CE5AB391C157A0A /* Pods-RFLog_Tests-acknowledgements.markdown */,
+				C24F7B937694499BC676EC2156FD921E /* Pods-RFLog_Tests-acknowledgements.plist */,
+				7BFC32D8A591F8B1941F7E3DCDCAA657 /* Pods-RFLog_Tests-dummy.m */,
+				88EFB529C6F762CBA6DE24868AA9B8C6 /* Pods-RFLog_Tests-frameworks.sh */,
+				3A68E4BA0C4478FEC12C120321A7C237 /* Pods-RFLog_Tests-resources.sh */,
+				4317E1DE750138E3989C6D7284FBDD89 /* Pods-RFLog_Tests-umbrella.h */,
+				B67D7FCEA21304E8F5D8E5E94DBE1770 /* Pods-RFLog_Tests.debug.xcconfig */,
+				2D1A37F671C9676FF32912529CDB3636 /* Pods-RFLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-RFLog_Tests";
+			path = "Target Support Files/Pods-RFLog_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DC436084BBB68B18AC3AC3E9732D8BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20DF48A3814785BC381587C7A109792 /* Pods-RFLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977A863A77BCD30CFD329D562DFD0A9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F433229957C0AE737F9F820E4A7E1B88 /* Pods-RFLog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96DF9EF457FB4CA61E75E0B6694855B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAE569C8DEE3BCE8CF4021BC56DADBC /* RFAssistiveTouch.h in Headers */,
+				C3FD935D4493DF3CF6D4857D3B3E6A98 /* RFLog-umbrella.h in Headers */,
+				FDAB161B21651E8BB591B3F2D712F3A4 /* RFLog.h in Headers */,
+				BDDDC4982AACF9E3E06918A0CA055EC3 /* RFTouchController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B84BB50AD67ED8D1EBD9700D97326FF /* RFLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1085F3106682B2D0D868992497A6D2 /* Build configuration list for PBXNativeTarget "RFLog" */;
+			buildPhases = (
+				DC6DEC2C5921FBCBB7FC4548E611E542 /* Sources */,
+				55925B88015CA9A23B6761A4FF29A775 /* Frameworks */,
+				A96DF9EF457FB4CA61E75E0B6694855B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFLog;
+			productName = RFLog;
+			productReference = 9EBB412EFAE66B2CD38E76097ABC0532 /* RFLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		604CF619CE3C0219A7246E0E738BB745 /* Pods-RFLog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01D22BAE8FA4D32979775777AB32DF8 /* Build configuration list for PBXNativeTarget "Pods-RFLog_Example" */;
+			buildPhases = (
+				D302F606B7ECC16556D5816E4E827F81 /* Sources */,
+				0491CB3D948901BFB14AAEFE53A8E3C1 /* Frameworks */,
+				977A863A77BCD30CFD329D562DFD0A9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D158C1ECF5563BBB085C8CDB013EC5F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-RFLog_Example";
+			productName = "Pods-RFLog_Example";
+			productReference = 7CD2A32AA50ED4D0EFD031FF8FF857BA /* Pods_RFLog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F02D3E5FABBA9D44D0EA9D3B12B54F95 /* Pods-RFLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2978E03240E98BDA610FA9D8C04D84 /* Build configuration list for PBXNativeTarget "Pods-RFLog_Tests" */;
+			buildPhases = (
+				76E2EB5C8FE55C98E57F4F37D123194A /* Sources */,
+				91BB77787006FB9634056BEEDE47584E /* Frameworks */,
+				3DC436084BBB68B18AC3AC3E9732D8BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RFLog_Tests";
+			productName = "Pods-RFLog_Tests";
+			productReference = 1E2673FA2501912F9E0225BB4C6A23ED /* Pods_RFLog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9FEB75C93F709F6DE7F21F5739451E72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				604CF619CE3C0219A7246E0E738BB745 /* Pods-RFLog_Example */,
+				F02D3E5FABBA9D44D0EA9D3B12B54F95 /* Pods-RFLog_Tests */,
+				2B84BB50AD67ED8D1EBD9700D97326FF /* RFLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E2EB5C8FE55C98E57F4F37D123194A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DD20BF5F6D19B7AAFC7A7A8897725A /* Pods-RFLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D302F606B7ECC16556D5816E4E827F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191466CA0AF530B939C4F3F08C4470FD /* Pods-RFLog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6DEC2C5921FBCBB7FC4548E611E542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E280336D67B8CAA39E4C7E714705057 /* RFAssistiveTouch.m in Sources */,
+				99E6DD99B9EFD557BA35474532949D82 /* RFLog-dummy.m in Sources */,
+				7BBA5008827E76A8DD81831F3DCD01DD /* RFLog.m in Sources */,
+				AF1359473DE9E63814F1682CD475E01D /* RFTouchController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D158C1ECF5563BBB085C8CDB013EC5F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RFLog;
+			target = 2B84BB50AD67ED8D1EBD9700D97326FF /* RFLog */;
+			targetProxy = 5C96B6BD5B43A67DF3CAB2334025C45A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1281302ADB6064A313FBC229EAABCCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67D7FCEA21304E8F5D8E5E94DBE1770 /* Pods-RFLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RFLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RFLog_Tests/Pods-RFLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RFLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B64010AFC7A9215D8CEF3BE6585CCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67825BC7A63C98A2CC2A3B290591F628 /* Pods-RFLog_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RFLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RFLog_Example/Pods-RFLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RFLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39D5F64D6E39332F71A4C14343F0D427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F464AE5377767B4AB9E0B441CF8EDC10 /* RFLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RFLog/RFLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RFLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RFLog/RFLog.modulemap";
+				PRODUCT_NAME = RFLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		470B15C0DB84EB023FB4C528507EDF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0D62CCAAC751F4EF98423129DC7106 /* Pods-RFLog_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RFLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RFLog_Example/Pods-RFLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RFLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62DE0F85E50320D389C08AF33F83D4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1A37F671C9676FF32912529CDB3636 /* Pods-RFLog_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RFLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RFLog_Tests/Pods-RFLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RFLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E239ED8A5E97866E393497C7B9E196DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F464AE5377767B4AB9E0B441CF8EDC10 /* RFLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RFLog/RFLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RFLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RFLog/RFLog.modulemap";
+				PRODUCT_NAME = RFLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D1085F3106682B2D0D868992497A6D2 /* Build configuration list for PBXNativeTarget "RFLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E239ED8A5E97866E393497C7B9E196DB /* Debug */,
+				39D5F64D6E39332F71A4C14343F0D427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01D22BAE8FA4D32979775777AB32DF8 /* Build configuration list for PBXNativeTarget "Pods-RFLog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B64010AFC7A9215D8CEF3BE6585CCDF /* Debug */,
+				470B15C0DB84EB023FB4C528507EDF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2978E03240E98BDA610FA9D8C04D84 /* Build configuration list for PBXNativeTarget "Pods-RFLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1281302ADB6064A313FBC229EAABCCEA /* Debug */,
+				62DE0F85E50320D389C08AF33F83D4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

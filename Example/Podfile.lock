@@ -1,0 +1,16 @@
+PODS:
+  - RFLog (0.0.1)
+
+DEPENDENCIES:
+  - RFLog (from `../`)
+
+EXTERNAL SOURCES:
+  RFLog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RFLog: 86b498e4b5dc3d9a3d31f74ed5dee28e3d8b819d
+
+PODFILE CHECKSUM: bcb523b387feec568a178dfc402bb79c11c293ae
+
+COCOAPODS: 1.4.0

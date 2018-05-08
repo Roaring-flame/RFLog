@@ -1,0 +1,6 @@
+framework module RFLog {
+  umbrella header "RFLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

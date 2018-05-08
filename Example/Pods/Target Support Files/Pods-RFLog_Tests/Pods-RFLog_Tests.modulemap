@@ -1,0 +1,6 @@
+framework module Pods_RFLog_Tests {
+  umbrella header "Pods-RFLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

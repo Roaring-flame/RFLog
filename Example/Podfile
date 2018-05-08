@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RFLog_Example' do
+  pod 'RFLog', :path => '../'
+
+  target 'RFLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
