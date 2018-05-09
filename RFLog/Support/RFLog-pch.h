@@ -16,5 +16,6 @@
 #define RFLogTouchHeight    40.f
 #define RFLogTouchWidth     40.f
 #define RFLogWindowPadding  10.f
+#define RFLogWindowMargin   10.f
 
 #endif /* RFLog_pch_h */

@@ -31,7 +31,6 @@
     
     [self redirectSTD:STDOUT_FILENO];
     [self redirectSTD:STDERR_FILENO];
-    
 }
 
 #pragma mark - override
